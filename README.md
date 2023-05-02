@@ -23,7 +23,9 @@ When someone clicks the convert button, you will want to:
 
 - read the base and target currencies from their dropdowns
 - read the currency amount from its form field
-- make a fetch request to `https://openexchangerates.org/api/latest.json?app_id=APP_ID&base=BASE_CURRENCY` where `BASE_CURRENCY` is a placeholder for the base currency code and `APP_ID` is a placeholder for an access key to use this api. You can get one by creating a free account on openexchangerates.org (see resources below).
+- make a fetch request to `https://openexchangerates.org/api/latest.json?app_id=APP_ID&base=BASE_CURRENCY` where
+
+ `BASE_CURRENCY` is a placeholder for the base currency code and `APP_ID` is a placeholder for an access key to use this api. You can get one by creating a free account on openexchangerates.org (see resources below).
 - use the data from the fetch request to calculate the target currency amount
 - update the page to show that amount
 
